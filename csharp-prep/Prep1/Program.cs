@@ -11,7 +11,7 @@ class Program
         Console.Write("Please enter last your name: ");
         lastName = Console.ReadLine();
 
-        Console.WriteLine($"{firstName} {lastName}");
+        Console.WriteLine($"Your name is {lastName}, {firstName} {lastName}.");
         
     }
 }
