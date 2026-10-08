@@ -2,7 +2,7 @@ class Menu
 {
     public int ProcessMenu()
     {
-        Console.WriteLine("In the menu class:");
+        Console.WriteLine("");
 
         int input = 0;
         while (input < 1 || input > 5)
