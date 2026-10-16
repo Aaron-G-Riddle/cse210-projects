@@ -22,9 +22,9 @@ class Program
 
     static void Main(string[] args)
     {
-        Circle myCircle = new Circle();
+        Circle myCircle = new Circle(-10);
 
-        myCircle._radius = 10;
+        //myCircle._radius = 10;
 
         double area = myCircle.GetArea();
 
